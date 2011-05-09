@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/main_layout"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  <FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="0px"
+    android:layout_weight="1">
+    <FrameLayout 
+      android:id="@+id/mPreview"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"/>
+    <LinearLayout
+      android:id="@+id/overlay_container"
+      android:orientation="vertical"
+      android:visibility="visible"
+      android:background="@drawable/transparent"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent">
+      <LinearLayout
+        android:id="@+id/overlay_row1"
+        android:orientation="horizontal"
+        android:background="@drawable/transparent"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView  
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" 
+          android:text="@string/app_name"/>
+        <Button 
+          android:id="@+id/mTakePicture"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" 
+          android:background="@drawable/transparent_button"
+          android:text="Take Picture" />
+      </LinearLayout>
+      <LinearLayout
+        android:id="@+id/overlay_row2"
+        android:orientation="horizontal"
+        android:background="@drawable/transparent"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+        <Button 
+          android:id="@+id/mButton1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" 
+          android:background="@drawable/transparent_button"
+          android:text="Do Nothing" />
+        <Button 
+          android:id="@+id/mButton2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" 
+          android:background="@drawable/transparent_button"
+          android:text="DOES NOTHING" />
+      </LinearLayout>
+      <LinearLayout
+        android:id="@+id/overlay_row3"
+        android:orientation="horizontal"
+        android:background="@drawable/transparent"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+        <Button 
+          android:id="@+id/mButton3"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" 
+          android:background="@drawable/transparent_button"
+          android:text="lorem ipsum dosem dor si alet pro quid pro" />
+      </LinearLayout>
+    </LinearLayout>
+  </FrameLayout>
+</LinearLayout>
+

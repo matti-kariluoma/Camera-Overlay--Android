@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">CameraTest</string>
+  <string name="switch_cam">Switch Cameras</string>
+  <string name="change_settings">Settings</string>
+  <string-array name="settings_array">
+    <item>Exit</item>
+  </string-array>
+</resources>
